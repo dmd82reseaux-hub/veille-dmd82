@@ -359,7 +359,7 @@ window.App = window.App || {};
       var natures = Array.from(new Set(tous.map(function (e) { return e.nature; }))).sort();
       var dessiner = function () { zone.replaceChildren(frise(tous.filter(function (e) { return !nature || e.nature === nature; }).sort(parDateDesc))); };
       u.append(c, [
-        tete('Historique sécuritaire', 'Terrorisme, ordre public, sûreté nucléaire, pertes en opération et posture Vigipirate dans le département.', [
+        tete('Historique sécuritaire', 'Tout ce qui peut appeler un appui des armées à l\'autorité civile (logique des 4i) : catastrophes naturelles, feux, canicules, crises sanitaires, ordre public et colère sociale, terrorisme, sûreté nucléaire, postures Vigipirate et Sentinelle, pertes en opération. Le contexte national (COVID, canicules) est indiqué comme tel. La collecte y verse automatiquement les faits marquants d\'intérêt fort.', [
           ui.select([['', 'Toutes les natures']].concat(natures.map(function (n) { return [n, n]; })), '', function (v) { nature = v; dessiner(); }, { 'aria-label': 'Nature' }),
           bouton('Excel', 'export', function () { ui.exporterXlsx('evenements-dmd82', S().get('Evenements'), colonnes('Evenements')); }),
           bouton('Ajouter', 'plus', pages.historique.nouveau, 'btn-primary', { id: 'btn-ajouter' })

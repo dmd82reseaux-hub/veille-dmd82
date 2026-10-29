@@ -1621,6 +1621,175 @@ App.DEMO = {
    "source": "Préfecture de Tarn-et-Garonne, communiqué du 24 mars 2023",
    "url": "https://tarn-et-garonne.gouv.fr/contenu/telechargement/29680/200631/file/2023%2003%2024%20CP%20La%20pr%C3%A9f%C3%A8te%20de%20Tarn-et-Garonne%20condamne%20toute%20violence%20%C3%A0%20l%E2%80%99encontre%20des%20forces%20de%20l'ordre.pdf",
    "gravite": "1"
+  },
+  {
+   "id": "s-opex-monument",
+   "date": "2019-11-11",
+   "type": "securite",
+   "nature": "Mémoire et pertes en opération",
+   "titre": "Soldats du 17e RGP morts pour la France en opération extérieure",
+   "communes": "Montauban",
+   "bilan": "Le monument aux morts de Montauban porte les noms des sapeurs parachutistes du 17e RGP tombés en OPEX, notamment en Afghanistan (Kamel Elward et Gilles Sarrazin en 2006 ; Guillaume Nunès-Patego, Jean-Marc Guéniat, Emmanuel Techer et Valéry Tholy en 2011).",
+   "implication": "Devoir de mémoire porté par la DMD, l'ONaCVG et les associations ; cérémonies annuelles.",
+   "source": "Wikipédia, Pertes militaires françaises en Afghanistan (monument aux morts de Montauban)",
+   "url": "https://fr.wikipedia.org/wiki/Pertes_militaires_fran%C3%A7aises_en_Afghanistan",
+   "gravite": "2"
+  },
+  {
+   "id": "s-2011-kapisa",
+   "date": "2011-09-07",
+   "type": "securite",
+   "nature": "Militaire tué en opération",
+   "titre": "Un lieutenant du 17e RGP tué en Afghanistan (Kapisa)",
+   "communes": "Montauban",
+   "bilan": "Le 7 septembre 2011, un lieutenant du 17e RGP est mortellement touché lors d'un accrochage en vallée de Kapisa (village de Mobayan), pendant une opération de contrôle de zone ; plusieurs militaires français blessés.",
+   "implication": "",
+   "source": "Zone Militaire (opex360), 7 septembre 2011",
+   "url": "https://www.opex360.com/2011/09/07/un-lieutenant-du-17e-regiment-du-genie-parachutiste-tue-en-afghanistan/",
+   "gravite": "2"
+  },
+  {
+   "id": "s-2019-golfech-oct",
+   "date": "2019-10-11",
+   "type": "securite",
+   "nature": "Sûreté nucléaire",
+   "titre": "Golfech : incident et visite de l'ASN",
+   "communes": "Golfech",
+   "bilan": "En octobre 2019, un incident conduit l'Autorité de sûreté nucléaire à diligenter une visite de la centrale de Golfech.",
+   "implication": "Suivi par la CLI de Golfech, à laquelle la DMD est associée.",
+   "source": "L'Info Durable, octobre 2019",
+   "url": "https://www.linfodurable.fr/incident-la-centrale-nucleaire-de-golfech-visite-de-lasn-des-lundi-14197",
+   "gravite": "1"
+  },
+  {
+   "id": "s-2022-golfech-asn",
+   "date": "2022",
+   "type": "securite",
+   "nature": "Sûreté nucléaire",
+   "titre": "Golfech : le directeur de la centrale convoqué par l'ASN",
+   "communes": "Golfech",
+   "bilan": "Après une série de dysfonctionnements, l'Autorité de sûreté nucléaire convoque la direction de la centrale de Golfech.",
+   "implication": "",
+   "source": "L'Info Durable, 2022",
+   "url": "https://www.linfodurable.fr/dysfonctionnements-golfech-le-patron-de-la-centrale-convoque-par-lasn-16065",
+   "gravite": "2"
+  },
+  {
+   "id": "s-2015-etat-urgence",
+   "date": "2015-11-14",
+   "type": "securite",
+   "nature": "Posture Vigipirate",
+   "titre": "État d'urgence après les attentats du 13 novembre 2015",
+   "communes": "Département",
+   "bilan": "À la suite des attentats de Paris et Saint-Denis, l'état d'urgence est déclaré sur tout le territoire ; renforcement de la posture Vigipirate et des dispositifs de sécurité, y compris dans le département.",
+   "implication": "Patrouilles Sentinelle, sécurisation des sites et rassemblements.",
+   "source": "Contexte national (état d'urgence 2015-2017)",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031473404",
+   "gravite": "3"
+  },
+  {
+   "id": "e-1999-tempete-martin",
+   "date": "1999-12-27",
+   "type": "catastrophe",
+   "nature": "Tempête",
+   "titre": "Tempête Martin",
+   "communes": "Sud-Ouest, département",
+   "bilan": "Fin décembre 1999, la tempête Martin balaie le Sud-Ouest : vents violents, dégâts, coupures d'électricité massives et de longue durée dans le département.",
+   "implication": "",
+   "source": "Météo-France, tempêtes de décembre 1999",
+   "url": "https://www.meteofrance.fr/actualites-et-dossiers/les-tempetes/lothar-et-martin-les-tempetes-de-decembre-1999",
+   "gravite": "2"
+  },
+  {
+   "id": "e-2003-canicule",
+   "date": "2003-08",
+   "type": "catastrophe",
+   "nature": "Canicule",
+   "titre": "Canicule d'août 2003",
+   "communes": "Département",
+   "bilan": "Vague de chaleur exceptionnelle en août 2003, à l'origine d'une surmortalité nationale et d'un plan de mobilisation sanitaire, déclinée dans le département.",
+   "implication": "",
+   "source": "Contexte national (canicule 2003)",
+   "url": "https://www.santepubliquefrance.fr/determinants-de-sante/climat/fortes-chaleurs-canicule",
+   "gravite": "2"
+  },
+  {
+   "id": "e-2009-klaus",
+   "date": "2009-01-24",
+   "type": "catastrophe",
+   "nature": "Tempête",
+   "titre": "Tempête Klaus",
+   "communes": "Sud-Ouest, département",
+   "bilan": "Le 24 janvier 2009, la tempête Klaus balaie le Sud-Ouest (jusqu'à 29 morts en France). Coupures d'électricité massives et prolongées en Midi-Pyrénées, dégâts importants, pic d'intoxications au monoxyde de carbone pendant les coupures.",
+   "implication": "Appui possible des armées à la remise en état et au soutien des populations isolées (logique 4i).",
+   "source": "L'Info Durable et Santé publique France, janvier 2009",
+   "url": "https://www.linfodurable.fr/tempete-klaus-29-morts-et-la-plus-grande-foret-deurope-detruite-9090",
+   "gravite": "3"
+  },
+  {
+   "id": "s-2020-covid",
+   "date": "2020-03-17",
+   "type": "securite",
+   "nature": "Crise sanitaire (national)",
+   "titre": "COVID-19 : confinement et état d'urgence sanitaire",
+   "communes": "Département",
+   "bilan": "À partir du 17 mars 2020, confinement national et état d'urgence sanitaire. Les armées lancent l'opération Résilience en appui des services publics (transport sanitaire, logistique, soutien aux plus vulnérables), déclinée en région.",
+   "implication": "Appui des armées à l'autorité civile (opération Résilience) ; renfort des services de l'État dans le département.",
+   "source": "Contexte national (loi du 23 mars 2020, opération Résilience)",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041746313",
+   "gravite": "3"
+  },
+  {
+   "id": "s-2023-orion",
+   "date": "2023-02-28",
+   "type": "securite",
+   "nature": "Exercice de défense",
+   "titre": "Exercice Orion 2 déployé en Tarn-et-Garonne",
+   "communes": "Département",
+   "bilan": "Du 28 février au 10 mars 2023, le volet Orion 2 du grand exercice interarmées Orion se déploie dans le département : manœuvres, mouvements de troupes et de matériels.",
+   "implication": "Coordination DMD, préfecture et communes ; information des populations.",
+   "source": "Préfecture de Tarn-et-Garonne, communiqué du 24 février 2023",
+   "url": "https://www.tarn-et-garonne.gouv.fr/contenu/telechargement/29441/198835/file/2023%2002%2024%20CP%20L%E2%80%99exercice%20Orion%202%20se%20d%C3%A9ploiera%20en%20Tarn-et-Garonne%20du%2028%20f%C3%A9vrier%20au%2010%20mars%202023.odt.pdf",
+   "gravite": "1"
+  },
+  {
+   "id": "e-2022-canicule-secheresse",
+   "date": "2022-08",
+   "type": "catastrophe",
+   "nature": "Canicule et sécheresse",
+   "titre": "Canicule et sécheresse exceptionnelles de l'été 2022",
+   "communes": "Département",
+   "bilan": "Été 2022 : vigilance rouge canicule (22 août) et sécheresse qualifiée d'exceptionnelle sur tout le département, restrictions d'usage de l'eau renforcées, mobilisation des services de l'État.",
+   "implication": "Suivi des tensions sur l'eau et l'agriculture ; appui possible (feux, soutien aux populations).",
+   "source": "Préfecture de Tarn-et-Garonne, communiqués des 11 et 22 août 2022",
+   "url": "https://www.tarn-et-garonne.gouv.fr/index.php/contenu/telechargement/27968/165806/file/2022%2008%2011%20CP%20S%C3%A9cheresse%20%E2%80%93%20une%20situation%20exceptionnelle%20sur%20l%E2%80%99ensemble%20du%20Tarn-et-Garonne_f.odt.pdf",
+   "gravite": "3"
+  },
+  {
+   "id": "e-2025-canicule-rouge",
+   "date": "2025-08-12",
+   "type": "catastrophe",
+   "nature": "Canicule",
+   "titre": "Vigilance rouge canicule d'août 2025",
+   "communes": "Département",
+   "bilan": "Le 12 août 2025, le département passe en vigilance rouge canicule ; les services de l'État sont particulièrement mobilisés (personnes vulnérables, prévention des feux).",
+   "implication": "",
+   "source": "Préfecture de Tarn-et-Garonne, communiqué du 12 août 2025",
+   "url": "https://foot82.fff.fr/wp-content/uploads/sites/73/2025/08/2025-08-12-CP-Vigilance-rouge-canicule-les-services-de-lEtat-en-Tarn-et-Garonne-particulierement-mobilises.pdf",
+   "gravite": "2"
+  },
+  {
+   "id": "e-2026-feux-canicule",
+   "date": "2026-07-13",
+   "type": "catastrophe",
+   "nature": "Feux et canicule",
+   "titre": "Vague de feux sous la canicule, juillet 2026",
+   "communes": "Département",
+   "bilan": "En juillet 2026, le département fait face à une vague de feux sur fond de canicule.",
+   "implication": "Appui possible des armées à la lutte et à la surveillance (logique 4i).",
+   "source": "Le Petit Journal 82, 13 juillet 2026",
+   "url": "https://www.lepetitjournal.net/82-tarn-et-garonne/2026/07/13/le-tarn-et-garonne-face-a-une-vague-de-feux-sous-la-canicule/",
+   "gravite": "2"
   }
  ],
  "Situation": [
@@ -1841,6 +2010,40 @@ App.DEMO = {
   },
   {
    "id": "o-flux-10",
+   "canal": "reseaux_sociaux",
+   "nom": "Google Actualités : trafic et incidents de terrain 82 (flux)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=%22Tarn-et-Garonne%22%20%28accident%20OR%20carambolage%20OR%20bouchon%20OR%20%22A62%22%20OR%20%22A20%22%20OR%20%22coupure%20de%20courant%22%20OR%20panne%20OR%20%C3%A9vacuation%20OR%20intemp%C3%A9ries%29&hl=fr&gl=FR&ceid=FR:fr",
+   "motif": "",
+   "usage": "Veille de terrain : trafic, accidents, coupures, intempéries. Agrégateur, source à vérifier.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "oui",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-flux-11",
+   "canal": "reseaux_sociaux",
+   "nom": "Google Actualités : appels à mobilisation 82 (flux)",
+   "type": "rss",
+   "url": "https://news.google.com/rss/search?q=%22Tarn-et-Garonne%22%20%28manifestation%20OR%20%22appel%20%C3%A0%20manifester%22%20OR%20blocage%20OR%20rassemblement%20OR%20mobilisation%20OR%20gr%C3%A8ve%20OR%20%22op%C3%A9ration%20escargot%22%20OR%20barrage%29&hl=fr&gl=FR&ceid=FR:fr",
+   "motif": "",
+   "usage": "Appels à manifester et mobilisations, repris par la presse et les comptes publics. Signal précoce à recouper.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "oui",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-flux-12",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : conseiller 1",
    "type": "rss",
@@ -1857,7 +2060,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-11",
+   "id": "o-flux-13",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : conseiller 2",
    "type": "rss",
@@ -1874,7 +2077,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-12",
+   "id": "o-flux-14",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : conseiller 3",
    "type": "rss",
@@ -1891,7 +2094,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-13",
+   "id": "o-flux-15",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : conseiller 4",
    "type": "rss",
@@ -1908,7 +2111,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-14",
+   "id": "o-flux-16",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : conseiller 5",
    "type": "rss",
@@ -1925,7 +2128,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-15",
+   "id": "o-flux-17",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : appuyer 1",
    "type": "rss",
@@ -1942,7 +2145,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-16",
+   "id": "o-flux-18",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : appuyer 2",
    "type": "rss",
@@ -1959,7 +2162,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-17",
+   "id": "o-flux-19",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : appuyer 3",
    "type": "rss",
@@ -1976,7 +2179,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-18",
+   "id": "o-flux-20",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : appuyer 4",
    "type": "rss",
@@ -1993,7 +2196,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-19",
+   "id": "o-flux-21",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : rayonner 1",
    "type": "rss",
@@ -2010,7 +2213,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-20",
+   "id": "o-flux-22",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : rayonner 2",
    "type": "rss",
@@ -2027,7 +2230,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-21",
+   "id": "o-flux-23",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : rayonner 3",
    "type": "rss",
@@ -2044,7 +2247,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-22",
+   "id": "o-flux-24",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : honorer 1",
    "type": "rss",
@@ -2061,7 +2264,7 @@ App.DEMO = {
    "derniere_collecte": ""
   },
   {
-   "id": "o-flux-23",
+   "id": "o-flux-25",
    "canal": "presse_nationale",
    "nom": "Écosystème DMD : honorer 2",
    "type": "rss",
@@ -2731,6 +2934,142 @@ App.DEMO = {
    "url": "https://www.geoportail.gouv.fr/",
    "motif": "",
    "usage": "Fond cartographique de l'État : cadastre, risques, réseaux, photos aériennes. Outil de consultation, pas un flux.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-x-prefet82",
+   "canal": "reseaux_sociaux",
+   "nom": "X : préfet de Tarn-et-Garonne (à consulter)",
+   "type": "recherche",
+   "url": "https://x.com/Prefet82",
+   "motif": "",
+   "usage": "Communiqués officiels, alertes et consignes en temps réel. Compte à vérifier et à suivre.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-x-sdis82",
+   "canal": "reseaux_sociaux",
+   "nom": "X : SDIS 82, sapeurs-pompiers (à consulter)",
+   "type": "recherche",
+   "url": "https://x.com/SDIS82",
+   "motif": "",
+   "usage": "Interventions, feux, secours. Intitulé exact du compte à vérifier.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-x-gendarmerie82",
+   "canal": "reseaux_sociaux",
+   "nom": "X : gendarmerie de Tarn-et-Garonne (à consulter)",
+   "type": "recherche",
+   "url": "https://x.com/Gendarmerie082",
+   "motif": "",
+   "usage": "Sécurité publique, prévention. Intitulé exact à vérifier.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-bison-fute",
+   "canal": "officiel",
+   "nom": "Bison Futé : info trafic Sud-Ouest (à consulter)",
+   "type": "site",
+   "url": "https://www.bison-fute.gouv.fr/",
+   "motif": "",
+   "usage": "Conditions de circulation et prévisions, axes A62 et A20.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-vinci-a62",
+   "canal": "officiel",
+   "nom": "Vinci Autoroutes : trafic A62 et A20 (à consulter)",
+   "type": "site",
+   "url": "https://www.vinci-autoroutes.com/fr/info-trafic",
+   "motif": "",
+   "usage": "Info trafic en direct sur les autoroutes du département.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-enedis-coupures",
+   "canal": "officiel",
+   "nom": "Enedis : coupures d'électricité (à consulter)",
+   "type": "site",
+   "url": "https://www.enedis.fr/panne-et-coupure-de-courant",
+   "motif": "",
+   "usage": "Signalement et carte des coupures d'électricité, utile en cas de tempête.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-g-fb-mobil",
+   "canal": "reseaux_sociaux",
+   "nom": "Google : appels à manifester sur Facebook public 82 (à consulter)",
+   "type": "recherche",
+   "url": "https://www.google.com/search?q=site%3Afacebook.com%20%28%22Tarn-et-Garonne%22%20OR%20Montauban%20OR%20Castelsarrasin%20OR%20Moissac%29%20%28manifestation%20OR%20%22appel%20%C3%A0%20manifester%22%20OR%20blocage%20OR%20rassemblement%20OR%20mobilisation%29&tbs=qdr:w",
+   "motif": "",
+   "usage": "Recherche Google des publications Facebook PUBLIQUES (pages et groupes ouverts) des 7 derniers jours. Ne voit pas les groupes privés. A recouper.",
+   "destination": "articles",
+   "lecture": "non",
+   "portee": "departement",
+   "theme": "",
+   "local": "non",
+   "actif": "oui",
+   "dernier_statut": "",
+   "derniere_collecte": ""
+  },
+  {
+   "id": "o-g-fb-terrain",
+   "canal": "reseaux_sociaux",
+   "nom": "Google : incidents de terrain sur Facebook public 82 (à consulter)",
+   "type": "recherche",
+   "url": "https://www.google.com/search?q=site%3Afacebook.com%20%28%22Tarn-et-Garonne%22%20OR%20Montauban%29%20%28accident%20OR%20incendie%20OR%20%22coupure%20de%20courant%22%20OR%20inondation%20OR%20gendarmerie%29&tbs=qdr:w",
+   "motif": "",
+   "usage": "Recherche Google des publications Facebook publiques sur des incidents récents. A recouper.",
    "destination": "articles",
    "lecture": "non",
    "portee": "departement",
@@ -6819,6 +7158,11 @@ App.DEMO = {
    "description": "Version de l'API Graph de Facebook"
   },
   {
+   "cle": "historique_auto",
+   "valeur": "oui",
+   "description": "Verser automatiquement dans l'historique sécuritaire les articles d'intérêt fort décrivant un fait marquant (oui/non)"
+  },
+  {
    "cle": "apercus_max",
    "valeur": "25",
    "description": "Nombre maximal de pages lues à chaque collecte pour trouver la photo et le résumé des articles"
@@ -6842,6 +7186,16 @@ App.DEMO = {
    "cle": "geopolitique_jours",
    "valeur": "90",
    "description": "Nombre de jours de sélections géopolitiques conservées"
+  },
+  {
+   "cle": "alertes_google",
+   "valeur": "oui",
+   "description": "Lire les Google Alerts reçues par courriel et les verser dans le fil (oui/non). Recherche web récurrente, sans navigateur ni Claude."
+  },
+  {
+   "cle": "alertes_google_gmail",
+   "valeur": "from:googlealerts-noreply@google.com newer_than:2d",
+   "description": "Requête Gmail qui sélectionne les courriels Google Alerts à dépouiller à chaque collecte"
   }
  ]
 };

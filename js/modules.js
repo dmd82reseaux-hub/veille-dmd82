@@ -359,7 +359,7 @@ window.App = window.App || {};
       ]),
       el('article', { class: 'card', id: 'recherche-claude' }, [
         el('div', { class: 'card-head' }, [el('h3', null, 'Recherche par Claude')]),
-        el('p', { class: 'card-note' }, 'Ouvre une conversation Claude liée à ton ordinateur, avec le navigateur connecté aux comptes DMD, et colle cette consigne : Claude cherche sur X, Facebook et LinkedIn puis remplit le formulaire « Ajouter un résultat au fil » de ce site.'),
+        el('p', { class: 'card-note' }, 'Ouvre une conversation Claude liée à ton ordinateur, avec le navigateur connecté aux comptes DMD, et colle cette consigne. Claude cherche sur le web (Google, Google Actualités), X, Facebook (groupes citoyens compris) et LinkedIn, couvre toutes les familles de la veille, puis remplit « Ajouter un résultat au fil » de ce site. Tu peux en faire une tâche récurrente (chaque matin).'),
         el('textarea', { class: 'input', readonly: true, id: 'consigne-claude', style: 'min-height:150px;font-size:13px' }, prompt),
         el('div', { class: 'actions' }, [bouton('Copier la consigne', null, function () {
           var t = u.$('#consigne-claude');
@@ -398,11 +398,19 @@ window.App = window.App || {};
   }
   function consigneClaude() {
     var s = S().get('Suivis').filter(function (x) { return x.actif !== 'non' && x.type !== 'ministere' && x.perimetre !== 'textes'; }).map(function (x) { return x.valeur; });
-    return 'Utilise le navigateur de mon ordinateur, où je suis connecté avec les comptes de la DMD 82, pour une veille sur X, Facebook et LinkedIn. ' +
-      'Cherche les publications des 7 derniers jours sur : ' + s.join(', ') + ', ainsi que Montauban, Castelsarrasin, Caylus et Tarn-et-Garonne associés à armée, militaire, gendarmerie, préfet, manifestation, crue ou incendie. ' +
-      'Ne publie rien, n\'aime rien, ne suis personne et n\'envoie aucun message. ' +
-      'Pour chaque publication utile aux armées ou à la sécurité du département, ouvre le site de veille (' + location.origin + location.pathname + '#/reseaux), et remplis « Ajouter un résultat au fil » : lien, résumé en une phrase, réseau, compte auteur, intérêt. ' +
-      'Termine par la liste de ce que tu as ajouté.';
+    return 'Tu fais une veille de sources ouvertes pour la délégation militaire départementale de Tarn-et-Garonne. ' +
+      'Utilise le navigateur de mon ordinateur, où je suis connecté avec les comptes de la DMD 82. Couvre quatre canaux : (1) le web (recherche Google et Google Actualités), ' +
+      '(2) X, (3) Facebook, y compris les groupes citoyens « Info Trafic 82 », « Actu Montauban », « Tu es de Montauban si… », « Info Castelsarrasin Moissac », (4) LinkedIn. ' +
+      'Période : les 7 derniers jours. Reste dans le Tarn-et-Garonne et ses communes (Montauban, Castelsarrasin, Moissac, Caussade, Caylus, Golfech, Valence d\'Agen…) et, si pertinent, la zone de défense Sud. ' +
+      'Cherche, pour chaque famille :\n' +
+      '- Suivis nommés : ' + (s.length ? s.join(', ') : '(aucun suivi actif)') + '.\n' +
+      '- Armées et unités : 17e RGP, 9e RSAM, 31e RG, 11e RPIE, camp de Caylus, exercice, manœuvre, tir, survol de drone, bruit ou explosion signalés, Sentinelle.\n' +
+      '- Ordre public et colère sociale : manifestation, appel à manifester, blocage, rassemblement, barrage, opération escargot, grève, agriculteurs, violences.\n' +
+      '- Catastrophes et terrain : inondation, crue, orages, grêle, tempête, incendie, feu, canicule, sécheresse, coupure de courant, accident grave, carambolage, évacuation.\n' +
+      '- Sécurité et sûreté : préfet, gendarmerie, police, attentat, Vigipirate, Golfech ou sûreté nucléaire, cyberattaque visant une mairie, un hôpital ou une collectivité, personne disparue.\n' +
+      'Règles strictes : ne publie rien, n\'aime rien, ne commente rien, ne suis personne, n\'envoie aucun message, ne rejoins aucun groupe. Tu ne fais que lire et recopier. Recoupe une rumeur avant de la retenir.\n' +
+      'Pour chaque élément utile, ouvre le site de veille (' + location.origin + location.pathname + '#/reseaux) et remplis « Ajouter un résultat au fil » : lien, résumé en une phrase, canal (officiel, presse, réseaux sociaux), commune, et intérêt (fort, moyen, faible). ' +
+      'Termine par un court bilan de ce que tu as ajouté, par famille.';
   }
 
   /* ================= Alertes par courriel ================= */
